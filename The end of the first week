@@ -1,0 +1,6 @@
+var z = 10;
+document.write(
+"Hello, this is my first challange and I will do it"
++ z + 
+"times <br> I will do it, Iwill learn Javascript"
+);
