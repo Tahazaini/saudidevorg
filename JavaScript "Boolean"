@@ -1,0 +1,16 @@
+document.write('Boolean(10) is ' + Boolean(10)); 
+        document.write('<br>'); 
+        document.write('Boolean("GeeksforGeeks") is ' + Boolean("GeeksforGeeks")); 
+        document.write('<br>'); 
+        document.write('Boolean(2.74) is ' + Boolean(2.74)); 
+        document.write('<br>'); 
+        document.write('Boolean(-1) is ' + Boolean(-1)); 
+        document.write('<br>'); 
+        document.write("Boolean('true') is " + Boolean('true')); 
+        document.write('<br>'); 
+        document.write("Boolean('false') is " + Boolean('false')); 
+        document.write('<br>'); 
+        document.write('Boolean(3 * 2 + 1.11) is ' + Boolean(3 * 2 + 1.11)); 
+        document.write('<br>'); 
+        document.write('Boolean(1<2) is ' + Boolean(1 < 2)); 
+      
