@@ -1,0 +1,8 @@
+// Using Date() function
+  var d = Date(); 
+    
+  // Converting the number value to string
+  a = d.toString()  
+    
+  // Printing the day today
+  document.write("The day today is: " + a)
