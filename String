@@ -1,3 +1,3 @@
 var x = "hellow,world
-//=>["Hello, world":تبديل الحرف
-s.replace("h", "H")
+//=>"HELLO, WORLD"جعل االحرف كبيرة
+s.toUpperCase()
