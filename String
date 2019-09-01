@@ -1,2 +1,3 @@
-var x = "Hello"
-document.write(x.length)
+var x = "hellow,world
+//راح يطبع الحرف االول والسبب اننا اخترنا صفر
+s.charAt(0)
