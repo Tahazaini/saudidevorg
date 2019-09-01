@@ -1,3 +1,3 @@
 var x = "hellow,world
-// تحايل حتى نذهب لآخر حرف
-s.charAt(s.length-1)
+// سيبدأ من 1 الى ماقبل الحرف الرابع
+s.charAt(1,4)
