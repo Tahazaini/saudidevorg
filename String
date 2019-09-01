@@ -1,3 +1,3 @@
 var x = "hellow,world
 // سيبدأ من 1 الى ماقبل الحرف الرابع
-s.charAt(1,4)
+s.substring(1,4)
