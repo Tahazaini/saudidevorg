@@ -1,0 +1,6 @@
+// Assign the string value Taha to the username identifier
+var username = "taha_zaini";
+// Check if variable is equal to value
+if (username === "taha_zaini") {
+  console.log(true);
+}
