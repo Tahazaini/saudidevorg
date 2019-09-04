@@ -1,0 +1,10 @@
+var now = new Date();
+var dayOfWeek = now.getDay(); 
+
+    if(dayOfWeek == 5) {
+    alert("Have a nice weekend Taha");
+}   else if(dayOfWeek == 0) {
+    alert("Have a nice Sunday Taha");
+}   else {
+    alert("Have a nice day Taha");
+}
