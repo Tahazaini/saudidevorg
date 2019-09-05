@@ -1,0 +1,12 @@
+var day = prompt("what day is today?");
+switch(day){
+    case"Sunday": alert(1);break;
+    case"Monday": alert(2);break;
+    case"Thuesday": alert(3);break;
+    case"Wednesday": alert(4);break;
+    case"Thursday": alert(5);break;
+    case"Friday": alert(6 + "Happy weekend");break;
+    case"Saturday": alert(7 + "Happy weekend");break;
+    default:alert("Wrong Value!"); break;
+   
+     }
