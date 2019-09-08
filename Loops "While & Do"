@@ -1,0 +1,8 @@
+document.write("<b>Using do...while loops </b><br />");
+		var T = 4;
+		document.write("Even numbers less than 40<br />");
+		do
+		{
+			document.write(T + "<br />");
+			T = T + 4;
+		}while(T<40)
