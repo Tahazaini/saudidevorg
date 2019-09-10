@@ -1,0 +1,6 @@
+var students = new Array("Reem", "Raed ", "Sita", "Saliha ", "Taha");
+		document.write("<b>Using for loops </b><br />");
+		for (e=0;e<students.length;e++)
+		{
+		document.write(students[e] + "<br />");
+		}
