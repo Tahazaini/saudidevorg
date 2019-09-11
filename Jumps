@@ -1,0 +1,12 @@
+    var i = 0;
+    while (i <= 10)
+    {
+        document.write("<br \ ><b>The Value of the Variable </b>= " + i);
+        i++;
+        
+        if(i == 4)
+        {
+            break;
+        }
+    }
+    document.write("<br \>This statement is from Outside <b> While Loop</b> = " + i)
