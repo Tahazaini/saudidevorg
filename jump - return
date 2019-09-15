@@ -1,0 +1,8 @@
+function formatGreeting(name, city){
+    var retStr = "";
+    retStr += "Hi! <b>" + name + "</b><br>";
+    retStr += "Welcome to " + city + "!";
+   return retStr;
+  }
+  var greeting = formatGreeting("Taha", "Los Angeles");
+  document.write(greeting);
