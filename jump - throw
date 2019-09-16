@@ -1,0 +1,6 @@
+const p = new Promise((resolve, reject) => {
+  // the same as reject(new Error("Oops.."))
+  throw new Error("Oops..");
+})
+
+p.catch(error => console.log(error))
