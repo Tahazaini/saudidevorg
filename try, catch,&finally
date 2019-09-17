@@ -7,10 +7,9 @@ try {
  var n = Number(prompt("Please enter a positive integer", ""));
  positive(n);
 alert(n + " is positive");
-} catch (y) {
+} (y) {
  alert(y);
 //document.write(y);
-}
-fainally{
+}{
 alert("Finally, I got it");
 }
