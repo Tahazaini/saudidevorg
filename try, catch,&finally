@@ -11,3 +11,6 @@ alert(n + " is positive");
  alert(y);
 //document.write(y);
 }
+fainally{
+alert("Finally, I got it");
+}
