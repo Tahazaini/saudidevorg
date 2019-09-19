@@ -4,4 +4,4 @@ var person = {
  age: 30,
  eyeColor: "brown"
 };
-document.write(person.firstName);
+document.write(person.["firstName"]);
