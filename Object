@@ -1,0 +1,7 @@
+var person = {
+ firstName: "Taha",
+ lastName: "Zaini",
+ age: 30,
+ eyeColor: "brown"
+};
+document.write(person.firstName);
