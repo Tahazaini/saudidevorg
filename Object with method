@@ -1,0 +1,11 @@
+var person = {
+  firstName: "Abdulhamid",
+  lastName : "Zaini",
+  id     : 0446677,
+};
+person.name = function() {
+  return this.firstName + " " + this.lastName;
+};
+
+document.getElementById("demo").innerHTML =
+"My father is " + person.name(); 
