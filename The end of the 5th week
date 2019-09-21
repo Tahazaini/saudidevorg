@@ -1,0 +1,11 @@
+var T = 5; 
+var j = 0; 
+    try{ 
+        if ( j == 0 ){ 
+            throw( "Divide by zero error" ); 
+        }else{ var q = T / j;
+    } 
+    }   catch ( w ) { alert("Error: " + w );
+
+        }finally { alert("I am in a final block so, execute without any condition!" ); 
+    }
