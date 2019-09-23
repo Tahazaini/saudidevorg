@@ -1,0 +1,4 @@
+window.WhoAmI = "I'm the window object";
+alert(window.WhoAmI);
+alert(this.WhoAmI);
+alert(window === this);
