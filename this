@@ -1,4 +1,7 @@
+//Calling a Function
 window.WhoAmI = "I'm the window object";
-alert(window.WhoAmI);
-alert(this.WhoAmI);
-alert(window === this);
+function TestThis() {
+	alert(this.WhoAmI); // I'm the window object
+	alert(window === this);
+}
+TestThis();
