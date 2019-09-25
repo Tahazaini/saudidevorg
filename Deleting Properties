@@ -1,0 +1,12 @@
+var person = {
+    firstName: "khalid",
+    lastName: "Fahad",
+    age: 30, 
+    fullName : function(){
+     return this. firstName + "  " +this.lastName;
+ }
+ };
+ document.write(person.age+"<br>");
+ delete person.age;
+ document.write(person.age+"<br>");
+ 
