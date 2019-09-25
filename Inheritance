@@ -1,0 +1,9 @@
+function user(id, FirstName, LastName){
+    this.id = id;
+    this.FirstName = FirstName;
+    this.LastName = LastName;
+   }
+   var Taha = new user(885566, "Taha", "Zaini");
+   var Bader = new user(885567, "Bader", "Alsayed");
+   var Khalid = new user(885568, "Khalid", "Fahad");
+   document.write(Bader.id+" "+Bader.FirstName+" "+Bader.LastName);
