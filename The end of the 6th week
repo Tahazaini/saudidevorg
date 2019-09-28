@@ -1,0 +1,13 @@
+function student(Subject, CoordinatorName , NOofHours, NoofStudents){
+    this.Subject = Subject;
+    this.CoordinatorName = CoordinatorName;
+    this.NOofHours = NOofHours;
+    this.NoofStudents = NoofStudents;
+   }
+   var Taha = new student("science" , "Dr.Maher" , "4hr" , "10034");
+   var Bader = new student("Civil Engineering" , "Dr.Fahad" , "4hr" , "10044");
+   var Khalid = new student("Finance", "Mr. Mustafa", "3hr", "10045");
+   //document.write(Bader.Subject+" "+Bader.CoordinatorName+" "+Bader.NOofHours+" "+Bader.NoofStudents);
+   document.write(Bader.Subject+" "+Bader.CoordinatorName+" "+Bader.NOofHours+" "+Bader.NoofStudents);
+
+   
