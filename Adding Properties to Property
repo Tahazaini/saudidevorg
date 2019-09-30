@@ -1,0 +1,20 @@
+// Constructor function for Person objects
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+// creating two Person objects
+var myFriend = new Person("Bader", "Alsayed", 33, "Blue");
+var myRoommate = new Person("Khalid", "Fahad", 29, "Brown ");
+
+// Adding a name method to first object
+myFriend.name = function() {
+  return this.firstName + " " + this.lastName;
+};
+
+// Display full name
+document.getElementById("demo").innerHTML =
+"My friend is " + myFriend.name(); 
