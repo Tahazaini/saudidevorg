@@ -1,0 +1,3 @@
+var fruits = ["Cantaloupe", "Blueberry", "Orange", "Strawberry"];
+var last = fruits[fruits.length-1];
+document.getElementById("demo").innerHTML = last;
