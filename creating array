@@ -1,0 +1,6 @@
+// creating two arrays and combine them into 1 new array
+var fruits = ["Strawberry", "Blueberry", "Cantaloupe"];
+var numbers = [33, 45, 89, 4, 201];
+var arr = fruits.concat(numbers);
+document.getElementById("result").innerHTML = arr;
+
