@@ -1,0 +1,3 @@
+var fruits = ["Strawberry", "Blueberry", "Cantaloupe"];
+var fruits = fruits[2];
+document.getElementById("demo").innerHTML = fruits;
