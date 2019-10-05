@@ -1,0 +1,4 @@
+var graduatedsBatch1= ["Bader","Khalid","Fahad","Taha"];
+var GPA = [ 3.66, 2.55, 3.10, 3.34];
+for (var n in graduatedsBatch1){
+  document.write("(student:" + graduatedsBatch1[n]  +",GPA:"+  GPA[n]+ "<br>");
