@@ -1,0 +1,2 @@
+var arr = new Array( 11, 24, 15 );
+document.write("arr.length is : " + arr.length);
