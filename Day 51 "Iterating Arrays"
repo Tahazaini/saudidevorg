@@ -1,0 +1,8 @@
+var txt = "";
+var numbers = [11, 24, 15, 12, 66, 35];
+numbers.forEach(myFunction);
+document.getElementById("demo").innerHTML = txt;
+
+function myFunction(value, index, array) {
+  txt = txt + value + "<br>"; 
+  
