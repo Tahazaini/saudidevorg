@@ -1,0 +1,5 @@
+var arr = new Array( 11, 24, 15 );
+    //arr. push('12')
+    //arr. push('66','35')
+    delete arr ["24"];
+document.write("arr.length is : " + arr.length);
