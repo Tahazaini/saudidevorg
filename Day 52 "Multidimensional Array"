@@ -1,0 +1,9 @@
+var activities = [
+    ['Working', 9],
+    ['Eating', 2],
+    ['Walking', 9],
+    ['Playing Game', 1],
+    ['Sleeping', 12]
+]; 
+
+document.write("activities is : " + activities);
