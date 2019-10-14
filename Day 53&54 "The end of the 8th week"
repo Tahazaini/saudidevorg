@@ -1,0 +1,10 @@
+var employees = [];
+employees.push( {name:"Ahmed", Jobrole: "Programmer", Experience:"6"} );
+employees.push( {name:"Saad", Jobrole: "Engineer", Experience:"3"} );
+employees.push( {name:"Omar", Jobrole: "Accountant", Experience:"1"} );
+employees.push( {name:"Mohammed", Jobrole: "CEO", Experience:"5"} );
+employees.push( {name:"Rami", Jobrole: "Programmer", Experience:"2"} );
+employees.push( {name:"Salem", Jobrole: "Analyst", Experience:"8"} );
+employees.sort(function(a, b){
+  return a.Jobrole - b.Jobrole;
+});
