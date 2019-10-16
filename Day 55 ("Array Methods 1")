@@ -1,0 +1,4 @@
+// using concat
+var fruits1= ["Cantaloupe", "Blueberry"];
+var fruits2= ["Orange", "Strawberry"];
+document.write(fruits1.concat(fruits2));
