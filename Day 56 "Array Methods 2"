@@ -1,0 +1,4 @@
+//using shift
+var fruits = ["Cantaloupe", "Blueberry", "Orange", "Strawberry"];
+fruits.shift();
+document.write(fruits);
