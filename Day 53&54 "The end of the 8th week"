@@ -8,3 +8,5 @@ employees.push( {name:"Salem", Jobrole: "Analyst", Experience:"8"} );
 employees.sort(function(a, b){
   return a.Jobrole - b.Jobrole;
 });
+document.write(employees.name+"<br>");
+ delete employees.Saad;
