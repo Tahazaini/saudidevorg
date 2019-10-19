@@ -1,0 +1,11 @@
+var first = [1, 2, 3, 5, 8, 13];
+var second = [1, 2, 3, 5, 8, 13];
+
+console.log(first.join('|'));
+console.log(second.join('|'));
+
+if (first.join('|') === second.join('|')) {
+	console.log('The arrays are equal.');
+} else {
+	console.log('The arrays are NOT equal.');
+}
