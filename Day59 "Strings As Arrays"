@@ -1,0 +1,5 @@
+// using includes
+
+var str = "I love Javascript.";
+var n = str.includes("world");
+document.write(n);
