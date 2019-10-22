@@ -1,14 +1,10 @@
 var person = {
- fullName: function() {
- return this.firstName + " " + this.lastName;
+ fullName: function(city, country) {
+ return this.firstName + " " + this.lastName + "," + city + "," + country;
  }
 }
 var person1 = {
  firstName:"Taha",
  lastName: "Zaini"
 }
-var person2 = {
- firstName:"Bader",
- lastName: "Alsayed"
-}
-document.write(person.fullName.call(person1));
+document.write(person.fullName.call(person1, "Bader", "Alsayed"));
