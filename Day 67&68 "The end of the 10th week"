@@ -1,0 +1,15 @@
+const fact = num => {
+  if (!fact.cache) {
+    fact.cache = {}
+  }
+  if (fact.cache[num] !== undefined) {
+    document.write(num + ' cached' + '<br>')
+    return fact.cache[num];
+  } else {
+    document.write(num + ' not cached' + '<br>')
+  }
+  fact.cache[num] = num === 0 ? 1 : num * fact(num - 1)
+  return fact.cache[num]
+}
+document.write(`Result #1: ${fact(4)} <br><br>`)
+document.write(`Result #2: ${fact(4)}`)
