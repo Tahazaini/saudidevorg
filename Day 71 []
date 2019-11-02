@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* CSS styles for this page */
+.reveal * { display: none; } /* Children of class="reveal" are not shown */
+.reveal *.handle { display: block;} /* Except for the class="handle" child */
+</style>
+<script>
+// Don't do anything until the entire document has loaded
+window.onload = function() {
+// Find all container elements with class "reveal"
+var elements = document.getElementsByClassName("reveal");
+for(var i = 0; i < elements.length; i++) { // For each one...
+var elt = elements[i];
+// Find the "handle" element with the container
+var title = elt.getElementsByClassName("handle")[0];
+// When that element is clicked, reveal the rest of the content
+title.onclick = function() {
+4
+if (elt.className == "reveal") elt.className = "revealed";
+else if (elt.className == "revealed") elt.className = "reveal";
+}
+}
+};
+</script>
+</head>
+<body>
+    <p>In this example, the setInterval() method executes the setColor() function once every 300
+    milliseconds, which will toggle between two background colors.</p>
+    <button onclick="stopColor()">Stop Toggling</button>
+    <script>
+    var myVar = setInterval(setColor, 300);
+    function setColor() {
+     var x = document.body;
+     x.style.backgroundColor = x.style.backgroundColor == "yellow" ? "pink" : "yellow";
+    }
+    function stopColor() {
+     clearInterval(myVar);
+    }
+    </script>
+    </body>
+</html>
+
+
