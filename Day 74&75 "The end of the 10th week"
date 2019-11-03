@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Javascript open link without click</title> 
+        <style> 
+            .gfg { 
+                text-align:center; 
+                font-size:50px; 
+                font-weight:bold; 
+                color:green; 
+            } 
+        </style> 
+        
+        <button onclick="openWin()">Open "NewWindow"</button>
+        <button onclick="NewTab()">Open "New Tab"</button>
+        
+        <script> 
+            var myWindow;
+
+function openWin() {
+  myWindow = window.open("https://saudidev.org/", "myWindow", "width=200,height=100");
+  myWindow.document.write("<p>This is 'NewWindow'</p>");
+}
+
+function NewTab() { window.open("https://saudidev.org/", "_blank"); 
+
+}
+        </script> 
+    </head> 
+    <body> 
+        <div class = "gfg" onmouseover = "myFunction()"> 
+            Saudidevorg 
+        </div> 
+    </body> 
+</html>
