@@ -12,7 +12,7 @@ function changeColor(newColor) {
 </head>
 
 <body>
-<p id="para1">Some text here</p>
+<p id="para1">عبر استعمال هذه الدالة يمكنك ضبط اللون الحالي على سبيل هذا المثال /elementFromPoint </p>
 <button onclick="changeColor('blue');">blue</button>
 <button onclick="changeColor('red');">red</button>
 </body>
