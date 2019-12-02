@@ -1,0 +1,45 @@
+<!DOCTYPE HTML> 
+<html> 
+	<head> 
+		<title> 
+			JavaScript method to get the URL 
+			without query string 
+		</title> 
+	</head> 
+	
+	<body style = "text-align:center;"> 
+	
+		<h1 style = "color:green;" > 
+			Saudidevorg "المبادرة السعودية للمطورين"
+		</h1> 
+	
+		<p id = "GFG_UP" style = 
+			"font-size: 15px; font-weight: bold;"> 
+		</p> 
+		
+		<button onclick = "GFG_click()"> 
+			Get URL 
+		</button> 
+		
+		<p id = "GFG_DOWN" style = 
+			"color:green; font-size: 30px; font-weight: bold;"> 
+		</p> 
+		
+		<script> 
+			var el_up = document.getElementById("GFG_UP"); 
+			var el_down = document.getElementById("GFG_DOWN"); 
+			el_up.innerHTML = "Click on the button to get URL"; 
+			
+			function functionName(fun) { 
+				var val = fun.name; 
+				el_down.innerHTML = val; 
+			} 
+			function GFGFunction() { 
+			
+			} 
+			function GFG_click() { 
+				el_down.innerHTML = window.location.href.split('?')[0]; 
+			}		 
+		</script> 
+	</body> 
+</html>					 
